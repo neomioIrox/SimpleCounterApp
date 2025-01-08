@@ -12,7 +12,7 @@ class Program
         do
         {
             Console.Write($"Counter: {counter} > ");
-            input = Console.ReadLine()?.Trim().ToLower(); ---
+            input = Console.ReadLine()?.Trim().ToLower(); 
             counter++;
             
         } while (input != "exit");
